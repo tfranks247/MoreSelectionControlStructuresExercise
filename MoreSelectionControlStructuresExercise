@@ -1,0 +1,93 @@
+1. Process customer record
+
+A program is required to read a customer’s name, a purchase amount and a tax code. 
+The tax code has been validated and will be one of the following:
+
+
+
+IF salesTax= "0"
+
+THEN
+
+          Print "tax exempt"
+
+ELSE
+
+          IF salesTax = “1”
+
+          THEN
+
+                  Print "state tax only"
+
+          ELSE
+
+                   IF salesTax = "2"
+
+                   THEN
+
+                             Print "federal and state tax"
+
+                   ELSE
+
+                             IF salesTax = "3"
+							 
+								Print "special sales tax"
+
+                   ENDIF
+				   
+	compute sales tax
+	compute total amount due
+	print customer name
+	print purchase amount
+	print sales tax
+	print total amount due
+	
+
+2. Calculate employee's pay
+
+A program is required by a company to read an employee’s number, pay rate and the number of hours 
+worked in a week. The program is then to validate the pay rate field and the hours worked field and, if valid, 
+compute the employee’s weekly pay and then print it and the input data.
+
+Read employee number
+read pay rate
+display number of hours worked in one week
+Validate pay rate
+Validate hours worked
+print data 
+input data
+
+
+Validation
+
+IF hours worked = <60
+
+THEN 
+	
+	hourly rate = "$25.00 per hour"
+	
+	ELSE
+	
+		IF hours worked = "out of range" 
+		
+		THEN
+		
+			hourly rate = "not calculable" 
+			
+			ElSE
+			
+			IF hours worked = >35 
+			
+			THEN
+			
+			hourly rate = hourly rate * 1.5
+			
+			
+			
+			
+			
+			
+
+
+
+    
